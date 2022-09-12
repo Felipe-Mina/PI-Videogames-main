@@ -1,0 +1,9 @@
+.loading-contain {
+    height: 500px;
+    display: flex;
+    justify-content: center;  
+}
+
+.loading-img {
+    height: 300px;
+}

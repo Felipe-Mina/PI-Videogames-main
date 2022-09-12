@@ -1,0 +1,67 @@
+.detail-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-attachment: fixed;
+    background-image: url('../../images/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow-y: hidden;
+    min-height: 100vh;
+}
+
+.name-image {
+    background-color: rgba(255, 255, 255, 0.686);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-contain {
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.686);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 500px;
+}
+
+.arrays {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+.stars-gray {
+    position: relative;
+    display: inline-block;
+}
+
+.stars-yellow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-gray::before {
+    content: "\\f005 \\f005 \\f005 \\f005 \\f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ccc;
+}
+
+.stars-yellow::before {
+    content: "\\f005 \\f005 \\f005 \\f005 \\f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+}

@@ -1,0 +1,37 @@
+.search-screen {
+    background-attachment: fixed;
+    background-image: url('../../images/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    overflow-y: hidden;
+    min-height: 100vh;
+}
+
+.search-input {
+    margin-right: 1px;
+    margin-top: 25px;
+    padding: 6px;
+    height: 30px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.535);
+    box-shadow: 0 6px 17px rgba(70, 81, 11, 0.663);
+    border: 0;
+    width: 300px;
+    margin-bottom: 15px;
+    border-top-left-radius: 9px;
+}
+
+.btn-search {
+    margin-top: 25px;
+    position: absolute;
+    padding: 6px;
+    height: 42px;
+    width: 42px;
+    border-bottom-right-radius: 9px;
+    border: 0;
+    margin-bottom: 15px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(255, 255, 255, 0.535);
+    box-shadow: 0 6px 17px rgba(70, 81, 11, 0.663);
+}

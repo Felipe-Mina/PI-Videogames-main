@@ -1,0 +1,29 @@
+.button-prev {
+    height: 28px;
+    width: auto;
+    margin-bottom: 15px;
+    border-top-left-radius: 9px;
+    background-color: hsl(29, 100%, 50%);
+    border: 0.5px, 0.5px, 0.5px, 0.5px;
+
+}
+
+.button-next {
+    height: 28px;
+    width: auto;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 9px;
+    border-left: 0;
+    background-color: hsl(29, 100%, 50%);
+    border: 0.5px, 0.5px, 0.5px, 0.5px;
+
+}
+
+.page-button {
+    height: 28px;
+    background-color: hsl(29, 100%, 50%);
+    border: 1px, 1px, 1px, 1px;
+    border-left: 0;
+    width: 40px;
+    border-color: black;
+}
